@@ -14,6 +14,8 @@ jobs:
           name: Running tests using nosetests
           command: |
             nosetests ~/project-ci/tests/math-test.py
+	    ls -l
+	    pwd
 workflows:
   build_test:
     jobs:
